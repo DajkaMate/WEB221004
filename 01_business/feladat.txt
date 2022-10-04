@@ -1,0 +1,25 @@
+HEAD
+ - Az oldal címe: Our business.
+ - Az oldal nyelve angol legyen.
+ - Helyezz el hivatkozást a bootstrap.css, mystyle.css és a bootstrap.bundle.js állományokra. 
+ - Add meg a karakterkódolást: UTF-8 és a reszponzív viselkedést.
+
+BODY
+ - Alakítsd ki az oldal szerkezeti elemeit a minta.pdf alapján: <header>, <nav>, <div>-ek, <footer>.
+ - A szükséges szakaszoknál használj .container-fluid és ebben .container class-al ellátott <div>-et.
+ - A menüt tartalmazó <div>-nél használd a .sticky-top class-t, hogy lefele görgetéskor is mindig látszódjon a menüsáv.
+ - A menün és az "Our team" menüpontnál "md" méretben legyen töréspont, a "Contact us!" menüpontnál "lg" méretben legyen töréspont.
+ - A grid-ek 50-50% arányúak, kivéve a a "Contact us!" menüpontnál, ahol 5-7 arányú.
+ - Az "Our business" linke az index.html-re mutat.
+ - Az "About us", "Services", "Our Team" és "Contact us!" menüpontok az azonos nevű szakaszokra mutatnak, ID-ra linkelve.
+ - A "Get started" gomb az "About us" menüpontra mutat, ID-ra linkelve.
+ - Az oldal színeihez a bootstrap default szineit szinezd át, a felhasznált színek RGB kódjai:
+	- 250, 240, 235
+	- 197, 240, 40
+	- 43, 51, 16 
+ - A <header> háttérképéhez a teamwork.jpg használható, melyen 60% fekete áttetszés van. A teamwork2.jpg használható, ha ugyanezt css-el szeretnéd megoldani.
+ - A <header> címsora <h1>, a szakaszok címsorai <h2>, az "Our team" képek alatti címsorai <h3>.
+ - A címsorok formázásához .display-<1-6> class-ból használj.
+ - A "Contact us!" linkjének a tartalma az e-mail cím legyen.
+ - Minden mást bootstrap class-al formázz, a mystyle-ban minél kevesebb saját megoldásra törekedj. A mystyle.css elegendő csak a háttérképhez és a témaszinekhez.
+ 
