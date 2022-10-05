@@ -4,19 +4,14 @@
     --bs-light-rgb: 250, 240, 235;
     --bs-secondary-rgb: 197, 240, 40;
     --bs-body-color: #2B3310;
-
 }
 
-.title{
-    background-image: url('../img/teamwork.jpg') !important;
+header{
+    background-image: url('../img/teamwork.jpg');
 }
 
 h1{
     font-size:90px;
-}
-
-p{
-
 }
 
 iframe{
